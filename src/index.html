@@ -1,18 +1,39 @@
 <!DOCTYPE html>
-<html>
+<html lang = "pt-br">
   <head>
     <meta charset="utf-8" />
+    <meta name = "viewport" content="width=device-width,initial-scale=1.0">
     <title>Pay Lab</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div id="root">
-      <h1>Cartão </h1>
-    <input type="text" id="NumeroDoCartao">
-
-    <input type="button" id=Resultado value="Salvar Cartão">
+    <div class="root">  
+      <h1 id="cartao"> </h1>
+      <p id="Nome"> </p>
+      <h2 id="expire1"> </h2> <h3 id="expire2"> </h3>
     
     </div>
-    <script src="./index.js" type="module"></script>
+    <div class="root2">
+      
+      <div class="card" id="numeroCartao"> 
+        <input type="text" class="credito" id="credito" maxlength="16" placeholder="0000 0000 0000 0000">
+      </div>
+      <div class="card_grp">
+        <div class="cvv">
+          <input type="text" class="cvv-input" id="nomeTitular" placeholder="Nome Titular">
+        </div>
+        <div class="expire">
+          <input type="text" class="expire-input" id="expireinput1" placeholder="00">
+          <input type="text" class="expire-input" id="expireinput2" placeholder="00">
+        </div>
+
+
+      </div>
+      <div class="btn">
+        Salvar cartão
+      </div>
+    
+    </div>
+      <script src="./index.js" type="module"></script>
   </body>
 </html>

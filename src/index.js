@@ -1,4 +1,17 @@
 import validator from "./validator.js";
 
-console.log(validator);
+document.querySelector(".btn").addEventListener("click", Check);
+
+function Check(){
+    let pegaAqui=document.querySelector(".credito").value;
+    document.getElementById("cartao").innerHTML = pegaAqui;
+
+    let pega=document.querySelector(".cvv-input").value;
+    document.getElementById("nomeTitular").innerHTML = pega;
+
+    
+}
+
+
+
 
