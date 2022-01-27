@@ -1,5 +1,5 @@
 const validator = {
-   isValid(id=credito) {
+   isValid(credito) {
       let length = credito.length;
       let count = 0;
 
@@ -18,7 +18,8 @@ const validator = {
 }
 /*maskify(isValid) {
     return isValid.replace(/.(?=.{4})/g, "#");
-};*/
+};let cardArr = Array.from(cardNumber).reverse;
+*/
 
  export default validator;
  
