@@ -6,81 +6,95 @@
     <title>Pay Lab</title>
     <link rel="stylesheet" href="style.css" />
   </head>
-    <body>
+        <body>
 
-      <div class="container">
-      
-          <div class="card-container">
-      
-              <div class="front">
-                  <div class="card-number-box">################</div>
-                  <div class="flexbox">
-                      <div class="box">
-                          
-                          <div class="card-holder-name">seu nome</div>
-                      </div>
-                      <div class="box">
-                          
-                          <div class="expiration">
-                              <span class="exp-month">mm</span>
-                              <span class="exp-year">aa</span>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-      
-          </div>
-      
-          <form action="">
-              <div class="inputBox">
-                  <span>Numero do Cartão</span>
-                  <input type="text" maxlength="16" class="cardNumber" required>
-              </div>
-              <div class="inputBox">
-                  <span>Nome do Titular</span>
-                  <input type="text" class="cardNome">
-              </div>
-              <div class="flexbox">
-                  <div class="inputBox">
-                      <span>Mês de Expiração</span>
-                      <select name="" id="" class="inputMes">
-                          <option value="month" selected disabled>Mês</option>
-                          <option value="01">01</option>
-                          <option value="02">02</option>
-                          <option value="03">03</option>
-                          <option value="04">04</option>
-                          <option value="05">05</option>
-                          <option value="06">06</option>
-                          <option value="07">07</option>
-                          <option value="08">08</option>
-                          <option value="09">09</option>
-                          <option value="10">10</option>
-                          <option value="11">11</option>
-                          <option value="12">12</option>
-                      </select>
-                  </div>
-                  <div class="inputBox">
-                      <span>Ano de Expiração</span>
-                      <select name="" id="" class="inputAno">
-                          <option value="year" selected disabled>Ano</option>
-                          <option value="2021">2021</option>
-                          <option value="2022">2022</option>
-                          <option value="2023">2023</option>
-                          <option value="2024">2024</option>
-                          <option value="2025">2025</option>
-                          <option value="2026">2026</option>
-                          <option value="2027">2027</option>
-                          <option value="2028">2028</option>
-                          <option value="2029">2029</option>
-                          <option value="2030">2030</option>
-                      </select>
-                  </div>
-              </div>
-              <input type="submit" value="Salvar Cartão" class="submit-btn">
-          </form>
-      
-      </div>    
-          
-        <script src="./index.js" type="module"></script>
-    </body>
-  </html>
+        <div class="container">
+        
+            <div class="card-container">
+        
+                <div class="front">
+                        <div class="mb-3">
+                            <textarea
+                            disabled="true"
+                            class="form-control"
+                            id="ccValidator"
+                            rows="3"
+                            style="font-size: 10px"
+                            ></textarea>
+                        </div>
+                   
+                    
+                    
+
+                    <div class="card-number-box">0000000000000000</div>
+                    <div class="flexbox">
+                        <div class="box">
+                            
+                            <div class="card-name">seu nome</div>
+                        </div>
+                        <div class="box">
+                            
+                            
+                            <div class="expiration">
+                                <span class="expMes">mm</span> /
+                                <span class="expAno">aa</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+            </div>
+        
+            <form action="">
+                <div class="inputBox">
+                    <span>Numero do Cartão</span>
+                    <input type="text" maxlength="16" class="cardNumber" id="credito" required>
+                </div>
+                <div class="inputBox">
+                    <span>Nome do Titular</span>
+                    <input type="text" class="cardNome">
+                </div>
+                <div class="flexbox">
+                    <div class="inputBox">
+                        <span>Mês de Expiração</span>
+                        <select name="" id="" class="inputMes">
+                            <option value="month" selected disabled>Mês</option>
+                            <option value="01">01</option>
+                            <option value="02">02</option>
+                            <option value="03">03</option>
+                            <option value="04">04</option>
+                            <option value="05">05</option>
+                            <option value="06">06</option>
+                            <option value="07">07</option>
+                            <option value="08">08</option>
+                            <option value="09">09</option>
+                            <option value="10">10</option>
+                            <option value="11">11</option>
+                            <option value="12">12</option>
+                        </select>
+                    </div>
+                    <div class="inputBox">
+                        <span>Ano de Expiração</span>
+                        <select name="" id="" class="inputAno">
+                            <option value="year" selected disabled>Ano</option>
+                            <option value="2021">2021</option>
+                            <option value="2022">2022</option>
+                            <option value="2023">2023</option>
+                            <option value="2024">2024</option>
+                            <option value="2025">2025</option>
+                            <option value="2026">2026</option>
+                            <option value="2027">2027</option>
+                            <option value="2028">2028</option>
+                            <option value="2029">2029</option>
+                            <option value="2030">2030</option>
+                        </select>
+                    </div>
+                </div>
+                <input type="submit" value="Salvar Cartão" class="submit-btn" id="btn">
+            </form>
+        
+        </div>    
+            
+            <script src="./index.js" type="module"></script>
+        </body>
+    </html>
