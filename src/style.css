@@ -21,9 +21,15 @@
     flex-flow: column;
     padding-bottom: 60px;
 }
+.control{
+    font-size: 10px;
+    color: rgb(3, 32, 51);
+    background: transparent;
+
+}
 
 .container form{
-    background: #fff;
+    background: transparent;
     border-radius: 5px;
     box-shadow: 0 10px 15px rgba(0,0,0,.1);
     padding: 20px;
@@ -59,7 +65,7 @@
     flex:1 1 150px;
 }
 /*botão*/
-.container form .submit-btn{
+.container form .btnSalvar{
     width: 100%;
     background:linear-gradient(45deg, rgb(235, 238, 40), rgb(230, 224, 142));
     margin-top: 20px;
@@ -71,7 +77,7 @@
 }
 
 /*Movimento do botão*/
-.container form .submit-btn:hover{
+.container form .btnSalvar :hover{
     letter-spacing: 2px;
     opacity: .8;
 }

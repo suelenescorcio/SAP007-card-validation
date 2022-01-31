@@ -1,14 +1,14 @@
 import validator from "./validator.js";
 
 
-document.querySelector(".submit-btn").addEventListener("click", Check);
+document.querySelector(".btnSalvar").addEventListener("click", Check);
 
 function Check() {
     const CCredito = document.getElementById('credito');
     const CCValidation = document.getElementById('ccValidator');
     let message = "";
 
-    if(validator(CCredito.value) )
+    if(validator.isValid(CCredito.value) )
         message = "Válido";
     else
         message = "Não Válido";
@@ -16,12 +16,14 @@ function Check() {
     CCValidation.textContent = message;
     CCredito.value = null;
 
-};
+}
 
+//Função para os input ja escrever no cartão
 
-
+//Colocando a mascara no input
+const Msk = document.getElementById('credito')
 document.querySelector('.cardNumber').oninput = () =>{
-    document.querySelector('.card-number-box').innerText = document.querySelector('.cardNumber').value;
+    document.querySelector('.card-number-box').innerText = validator.maskify(Msk.value);
 }
 
 document.querySelector('.cardNome').oninput = () =>{

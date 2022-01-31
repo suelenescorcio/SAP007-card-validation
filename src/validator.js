@@ -1,5 +1,5 @@
     const validator = {
-        isValid(credito) {
+        isValid: function(credito) {
         let length = credito.length;
         let count = 0;
         let isValid = false;
@@ -19,12 +19,13 @@
                isValid = true;
            }
         
-        return isValid;
+        return isValid
+        },
+        maskify(isValid) {
+            return isValid.replace(/.(?=.{4})/g, "#");
         }
     }
-/*maskify(isValid) {
-    return isValid.replace(/.(?=.{4})/g, "#");
-};*/
+
 
  export default validator;
  
