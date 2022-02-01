@@ -4,26 +4,29 @@ import validator from "./validator.js";
 document.querySelector(".btnSalvar").addEventListener("click", Check);
 
 function Check() {
-    const CCredito = document.getElementById('credito');
-    const CCValidation = document.getElementById('ccValidator');
+    const cCredito = document.getElementById('credito');
+    const validation = document.getElementById('ccValidator');
     let message = "";
 
-    if(validator.isValid(CCredito.value) )
+    if(validator.isValid(cCredito.value) )
         message = "Válido";
     else
-        message = "Não Válido";
+        message = "Inválido";
+
+        if(cCredito.value == "")
+         alert("Por Favor, preencha seus dados.")
     
-    CCValidation.textContent = message;
-    CCredito.value = null;
+    validation.textContent = message;
+    cCredito.value = null;
 
 }
 
 //Função para os input ja escrever no cartão
 
 //Colocando a mascara no input
-const Msk = document.getElementById('credito')
+const msk = document.getElementById('credito')
 document.querySelector('.cardNumber').oninput = () =>{
-    document.querySelector('.card-number-box').innerText = validator.maskify(Msk.value);
+    document.querySelector('.card-number-box').innerText = validator.maskify(msk.value);
 }
 
 document.querySelector('.cardNome').oninput = () =>{

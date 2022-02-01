@@ -21,6 +21,7 @@
         
         return isValid
         },
+        //Mascarando os primeiros números
         maskify(isValid) {
             return isValid.replace(/.(?=.{4})/g, "#");
         }
