@@ -6,7 +6,7 @@
     box-sizing: border-box;
     outline: none; border: none;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: initial;
 }
 body{
     min-height: 100vh;
@@ -21,15 +21,15 @@ body{
 }
 h1{
     text-align: center;
+    padding-top: 5px;
+    padding-bottom: 150px;
     
 }
 p{
     text-align: justify;
     text-indent: 20px;
 }
-h1, p{
-    
-}
+
 .apresenta{
     background: transparent;
     border-radius: 5px;
