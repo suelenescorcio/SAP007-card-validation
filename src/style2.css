@@ -20,9 +20,7 @@ body{
     padding-bottom: 60px;
 }
 h1{
-    text-align: center;
-    padding-top: 5px;
-    padding-bottom: 150px;
+    text-align: center
     
 }
 p{
@@ -37,6 +35,7 @@ p{
     padding: 20px;
     width: 600px;
     padding-top: 160px;
+    
 }
 .apresenta .btn1{
     width: 100%;
