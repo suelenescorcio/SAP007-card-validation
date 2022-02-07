@@ -40,6 +40,26 @@ Observações importantes:
 📍 Node.js
 
 ## 4. 🟢 Resultado
+Tela Inicial
+
+
+Tela de cartão
+![PaginaCartão](tela.png)
+
+
+
+Tela Cartão Válido
+![PaginacartãoVálido](tela valido.png)
+
+
+
+
+
+Tala CArtão Inválido
+![PaginaCartaoInvalido](tela invalido.png)
+
+
+
 
 
 
