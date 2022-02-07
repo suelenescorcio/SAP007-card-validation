@@ -53,14 +53,14 @@ Tela de cartão
 
 
 Tela Cartão Válido
-![PaginacartãoVálido](tela valido.png)
+![PaginacartãoVálido](telavalido.png)
 
 
 
 
 
 Tala CArtão Inválido
-![PaginaCartaoInvalido](tela invalido.png)
+![PaginaCartaoInvalido](telainvalido.png)
 
 
 
