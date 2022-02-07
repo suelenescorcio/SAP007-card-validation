@@ -2,11 +2,11 @@
 
 ## Índice
 
-- [1. Sobre o Produto](#1-Sobre-o-Produto)
-- [2. Como usar?](#-2Como-usar?])
-- [3. Tecnologias Utilizadas](#3-Tecnologias-Utilizadas)
-- [4. Protótipo](#4-Protótipo)
-- [5. Resultado](#5-Resultado)
+- [1. Sobre o Produto](#1-💳-Sobre-o-Produto)
+- [2. Como usar?](#-🧷-2Como-usar?])
+- [3. Tecnologias Utilizadas](#3-💻-Tecnologias-Utilizadas)
+- [4. Protótipo](#4-🚧-Protótipo)
+- [5. Resultado](#5-🟢-Resultado)
 
 ---
 
