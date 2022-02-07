@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="container">
-      <div class="card-container">
-        <div class="front">
+    <main class="container">
+      <li class="card-container">
+        <ul class="front">
           <div class="validation">
             <p id="ccValidator"></p>
           </div>
@@ -25,8 +25,8 @@
               </div>
             </div>
           </div>
-        </div>
-      </div>
+        </ul>
+      </li>
 
       <form action="">
         <div class="inputBox">
@@ -51,7 +51,7 @@
         <div class="flexbox">
           <div class="inputBox">
             <span>Mês de Expiração</span>
-            <select name="" id="" class="inputMes">
+            <select class="inputMes">
               <option value="month" selected disabled>Mês</option>
               <option value="01">01</option>
               <option value="02">02</option>
@@ -69,7 +69,7 @@
           </div>
           <div class="inputBox">
             <span>Ano de Expiração</span>
-            <select name="" id="" class="inputAno">
+            <select class="inputAno">
               <option value="year" selected disabled>Ano</option>
               <option value="2021">2021</option>
               <option value="2022">2022</option>
@@ -86,7 +86,7 @@
         </div>
         <input type="button" value="Salvar Cartão" class="btnSalvar" id="btn" />
       </form>
-    </div>
+    </main>
 
     <script src="./index.js" type="module"></script>
   </body>
