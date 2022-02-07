@@ -5,7 +5,8 @@
 - [1. Sobre o Produto](#1-Sobre-o-Produto)
 - [2. Como usar?](#-2Como-usar?])
 - [3. Tecnologias Utilizadas](#3-Tecnologias-Utilizadas)
-- [4. Resultado](#4-Resultado)
+- [4. Protótipo](#4-Protótipo)
+- [5. Resultado](#5-Resultado)
 
 ---
 
@@ -39,12 +40,16 @@ Observações importantes:
 📍 JavaScript
 📍 Node.js
 
-## 4. Protótipo 
+## 4. 🚧 Protótipo 
+Meu projeto inicial era apenas uma aba simples para validação de cartão de crédito, mas visando e melhorando o UX, coloquei uma temática e aperfeiçoei conforme ia desenvolvendo o código.
+![prototipo](prototipo.png)
 
 
 
-## 4. 🟢 Resultado
+
+## 5. 🟢 Resultado
 Tela Inicial
+![PaginaInicial](telainicial.png)
 
 
 Tela de cartão
@@ -59,7 +64,7 @@ Tela Cartão Válido
 
 
 
-Tala CArtão Inválido
+Tala Cartão Inválido
 ![PaginaCartaoInvalido](telainvalido.png)
 
 
