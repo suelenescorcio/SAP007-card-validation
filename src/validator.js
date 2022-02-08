@@ -7,10 +7,11 @@
          for(let i = 0; i < arr.length; i++) {
                 let digito = parseInt(arr[i]);
                // Se o índice + 1 for par, dobre o valor.
-                if ( (i+2) % 2 === 1)
+                if ((i+2) % 2 === 1)
                   // Se estiver acima de 9, ajuste o valor.
-                    if((digito *= 2) > 9)
+                    if((digito *= 2) > 9){
                         digito -= 9;
+                    }
                 
                 count += digito;
             }
