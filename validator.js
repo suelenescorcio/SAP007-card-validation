@@ -1,28 +1,25 @@
     const validator = {
         isValid: function(credito) {
-        let length = credito.length;
+        let arr = Array.from(credito).reverse(); //coloca em uma array e reverte
         let count = 0;
-        let isValid = false;
+        
     // Percorre todo o número do cartão de crédito. 
-         for(let i = 0; i < length; i++) {
-                let digito = parseInt(credito[i]);
+         for(let i = 0; i < arr.length; i++) {
+                let digito = parseInt(arr[i]);
                // Se o índice + 1 for par, dobre o valor.
-                if ( (i+2) % 2 === 0)
+                if ( (i+2) % 2 === 1)
                   // Se estiver acima de 9, ajuste o valor.
                     if((digito *= 2) > 9)
                         digito -= 9;
                 
                 count += digito;
             }
-          // Se terminar com o final 0 é verdadeiro
-           if (count % 10 === 0){
-               isValid = true;
-           }
+            
         
-        return isValid
+        return count % 10 === 0
         },
         //Mascarando os primeiros números
-        maskify(isValid) {
+        maskify: function(isValid) {
             return isValid.replace(/.(?=.{4})/g, "#");
         }
     }

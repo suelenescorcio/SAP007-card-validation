@@ -1,23 +1,25 @@
 import validator from "./validator.js";
 
 
-document.querySelector(".btnSalvar").addEventListener("click", Check);
+document.querySelector(".btnSalvar").addEventListener("click", check);
 
-function Check() {
-    const cCredito = document.getElementById('credito');
+function check() {
+    let cCredito = document.getElementById('credito').value;
     const validation = document.getElementById('ccValidator');
     let message = "";
 
-    if(validator.isValid(cCredito.value) )
+    if(validator.isValid(cCredito)){
         message = "Válido";
-    else
+    }
+    else{
         message = "Inválido";
-
-        if(cCredito.value == "")
+    }
+       if(cCredito == ""){
          alert("Por Favor, preencha seus dados.")
+        }
     
     validation.textContent = message;
-    cCredito.value = null;
+    cCredito = null;
 
 }
 
