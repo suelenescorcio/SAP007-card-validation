@@ -15,9 +15,9 @@ function check() {
         message = "Inválido";
     }
        if(cCredito == ""){
-         alert("Por Favor, preencha seus dados.")
+         message = "Por Favor, preencha seus dados.";
         }
-    
+
     validation.textContent = message;
     cCredito = null;
 
