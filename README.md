@@ -13,8 +13,8 @@
 ## 1. 💳 Sobre o Produto
 
 O Pay Lab é um website que viabiliza guardar as suas informações de pagamento
-de forma segura, como seu cartão de crédito e débito. E já previamente, diz 
-se o seu cartão está válido. 
+de forma segura, como seu cartão de crédito e débito. E já previamente, diz
+se o seu cartão está válido.
 Website voltado para pessoas que querem facilitar sua forma de pagamento para
 compras online e se manter seguros contra possivéis golpes e roubo de dados.
 
@@ -25,14 +25,14 @@ A válidação é feita através do [algaritmo de Luhn](https://en.wikipedia.org
 também chamado de módulo 10, é um método de soma de verificação, usado para validar
 números de identificação, como o IMEI de telefones celulares, cartões de crédito
 etc.
-Observações importantes: 
+Observações importantes:
 📍 No campo de número de cartão, digite apenas os números do seu cartão, sem nenhum traço.
 
 📍 Digite o nome do titular conforme escrito no cartão.
 
 📍 Fique atento ao mês e ano de vencimento, para preencher corretamente.
 
-📍 A situação do seu cartão será avisa no canto superior esquerdo do cartão de amostra. 
+📍 A situação do seu cartão será avisa no canto superior esquerdo do cartão de amostra.
 
 ## 3. 💻 Tecnologias Utilizadas
 📍 HTML 5
@@ -40,32 +40,32 @@ Observações importantes:
 📍 JavaScript
 📍 Node.js
 
-## 4. 🚧 Protótipo 
+## 4. 🚧 Protótipo
 Meu projeto inicial era apenas uma aba simples para validação de cartão de crédito, mas visando e melhorando o UX, coloquei uma temática e aperfeiçoei conforme ia desenvolvendo o código.
-![prototipo](prototipo.png)
+![prototipo](./src/img/prototipo.png)
 
 
 
 
 ## 5. 🟢 Resultado
 Tela Inicial
-![PaginaInicial](telainicial.png)
+![PaginaInicial](./src/img/telainicial.png)
 
 
 Tela de cartão
-![PaginaCartão](tela.png)
+![PaginaCartão](./src/img/tela.png)
 
 
 
 Tela Cartão Válido
-![PaginacartãoVálido](telavalido.png)
+![PaginacartãoVálido](./src/img/telavalido.png)
 
 
 
 
 
 Tala Cartão Inválido
-![PaginaCartaoInvalido](telainvalido.png)
+![PaginaCartaoInvalido](./src/img/telainvalido.png)
 
 
 
